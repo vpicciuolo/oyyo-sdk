@@ -1,0 +1,7 @@
+{
+  "version": "0.1",
+  "project": "OYYO",
+  "domain": "https://oyyo.one",
+  "compatibility": ["/v1/models", "/v1/chat/completions", "/v1/responses", "/v1/embeddings"],
+  "native": ["/oyyo/v1/memory", "/oyyo/v1/media", "/oyyo/v1/tools", "/oyyo/v1/artifacts", "/oyyo/v1/growth", "/oyyo/v1/language", "/oyyo/v1/hardware"]
+}

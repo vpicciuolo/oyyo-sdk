@@ -1,0 +1,9 @@
+{
+  "name": "@oyyo/sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TypeScript SDK foundation for OYYO",
+  "scripts": {"typecheck": "tsc --noEmit"},
+  "devDependencies": {"typescript": "^5.6.0"}
+}

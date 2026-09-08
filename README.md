@@ -2,14 +2,45 @@
 
 Public integration surface for OYYO.
 
-Primary project domain: https://oyyo.one
+**Project:** https://oyyo.one  
+**Version:** `0.1.0-foundation`
 
-Planned initial SDKs:
+The SDK supports both an OpenAI-compatible surface and OYYO-native capabilities.
 
-- Python
-- TypeScript
-- OpenAI-compatible API examples
-- Native OYYO API schemas and examples
-- MCP/tool integration helpers
+## API direction
 
-Status: foundation `0.1.0`.
+Compatibility endpoints:
+
+- `/v1/models`
+- `/v1/chat/completions`
+- `/v1/responses`
+- `/v1/embeddings`
+
+OYYO-native namespace:
+
+- `/oyyo/v1/memory`
+- `/oyyo/v1/media`
+- `/oyyo/v1/tools`
+- `/oyyo/v1/artifacts`
+- `/oyyo/v1/growth`
+- `/oyyo/v1/language`
+- `/oyyo/v1/hardware`
+
+## Python
+
+```python
+from oyyo import OYYO
+
+client = OYYO(base_url="http://127.0.0.1:8080")
+print(client.models())
+```
+
+## TypeScript
+
+```ts
+import { OYYO } from "./src/index";
+const client = new OYYO({ baseUrl: "http://127.0.0.1:8080" });
+console.log(await client.models());
+```
+
+The runtime server itself is developed in the private OYYO core repository until the public/private boundary is formally reviewed.
