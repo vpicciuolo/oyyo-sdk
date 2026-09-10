@@ -1,5 +1,9 @@
-# License Status
+# OYYO Proprietary License Status
 
-Copyright © 2026 OYYO.
+**Copyright © 2026 OYYO · HRN INNOVATION TECHNOLOGIES LTD. All rights reserved.**
 
-This repository is public for development transparency. A final open-source SDK license has not yet been formally selected. Until this file is replaced by an explicit approved license, no additional rights are granted beyond those provided by applicable law and GitHub's Terms of Service.
+OYYO is proprietary technology and is **not open source**.
+
+This repository is publicly visible to document selected SDK interfaces, schemas and integration examples. Public visibility does not grant a license to use, copy, modify, distribute, sublicense or create derivative works from OYYO proprietary material, except for rights that may be provided by applicable law or GitHub's Terms of Service.
+
+If a specific file, SDK package or artifact is released under different terms, those terms must be stated explicitly for that file, package or artifact. No broader OYYO license should be inferred from this repository being public.
